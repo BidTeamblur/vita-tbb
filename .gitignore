@@ -1,0 +1,17 @@
+# Vita / cross-compile artifacts
+*.elf
+*.vpk
+*.self
+*.suprx
+*.skprx
+*.o
+*.a
+
+# Binaries
+*.obj
+*.so
+*.dll
+*.exe
+
+# Editors and IDEs
+.vscode/
