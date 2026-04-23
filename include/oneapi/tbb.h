@@ -24,6 +24,9 @@
     If you use only a few TBB constructs, consider including specific headers only.
     Any header listed below can be included independently of others.
 **/
-#include "/tbb/blocked_range.h"
+#include "tbb/blocked_range.h"
+#include "tbb/blocked_range2d.h"
+#include "tbb/blocked_range3d.h"
+#include "tbb/blocked_nd_range.h"
 
 #endif /* __TBB_tbb_H */

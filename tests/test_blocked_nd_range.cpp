@@ -1,5 +1,5 @@
 #include <cassert>
-#include "oneapi/tbb/blocked_nd_range.h"
+#include "oneapi/tbb.h"
 
 int main() {
     // 4-dimensions

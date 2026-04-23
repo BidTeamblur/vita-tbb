@@ -1,5 +1,5 @@
 #include <cassert>
-#include "oneapi/tbb/blocked_range3d.h"
+#include "oneapi/tbb.h"
 
 int main() {
     tbb::blocked_range3d<int> r(

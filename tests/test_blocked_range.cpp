@@ -1,5 +1,5 @@
 #include <cassert>
-#include "tbb/blocked_range.h"
+#include "oneapi/tbb.h"
 
 int main() {
     tbb::blocked_range<int> r(0, 100);

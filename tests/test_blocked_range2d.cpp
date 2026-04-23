@@ -1,5 +1,5 @@
 #include <cassert>
-#include "oneapi/tbb/blocked_range2d.h"
+#include "oneapi/tbb.h"
 
 int main() {
     tbb::blocked_range2d<int> r(0, 10, 2, 0, 20, 4);
