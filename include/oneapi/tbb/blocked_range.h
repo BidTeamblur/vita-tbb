@@ -134,12 +134,12 @@ private:
         return r.my_end = Value(r.my_end - right_part);
     }
 
-    // Removed __TBB_requires from this code block to avoid c++20 functionality
+    // VITA-TBB: Removed __TBB_requires from this code block to avoid c++20 functionality
     template<typename RowValue, typename ColValue>
-    friend class blocked_range2d; // to be implemented
+    friend class blocked_range2d;
 
     template<typename RowValue, typename ColValue, typename PageValue>
-    friend class blocked_range3d; // to be implemented
+    friend class blocked_range3d;
 
     template<typename DimValue, unsigned int N, typename>
     friend class blocked_nd_range_impl; // to be implemented

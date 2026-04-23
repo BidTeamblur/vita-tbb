@@ -3,8 +3,8 @@
 
 #include <cassert>
 
-// Turns _TBB_ASSERT into an alias for assert()
-// This means no debug msg function however
+// VITA-TBB: Turns _TBB_ASSERT into an alias for assert()
+// VITA-TBB: This means no debug msg function however
 #define __TBB_ASSERT(expr, msg) assert(expr)
 
 #endif // __TBB_detail__assert_H

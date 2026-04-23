@@ -74,7 +74,8 @@ auto get_range_split_object( PartitionerSplitType& split_obj )
 template <typename Range>
 using range_iterator_type = decltype(std::begin(std::declval<Range&>()));
 
-/* Used to be within a 
+/* VITA-TBB:
+Used to be within a 
 if __TBB_CPP20_CONCEPTS_PRESENT
 block
 */ 
