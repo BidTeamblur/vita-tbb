@@ -28,5 +28,6 @@
 #include "tbb/blocked_range2d.h"
 #include "tbb/blocked_range3d.h"
 #include "tbb/blocked_nd_range.h"
+#include "tbb/profiling.h"
 
 #endif /* __TBB_tbb_H */
