@@ -13,7 +13,7 @@ Pull requests are welcome. A few things worth knowing before you open one.
 
 ## What to work on
 
-The project is a subset, not a full port. 
+The project is a subset, not a full port (at least yet). 
 If you want to help, anything is fair game.
 
 If something is genuinely hard to implement correctly on Vita, leaving it
