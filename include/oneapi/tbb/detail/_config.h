@@ -34,19 +34,17 @@
 
 // Upstream uses this to mean `inline` (C++17) on constexpr globals
 // in headers. In C++14, constexpr at namespace scope is implicitly
-// const which gives internal linkage, so each translation unit gets
-// its own copy. That's fine for compile-time constants like no_slot.
+// const, which is fine for compile-time constants like no_slot.
 #define __TBB_GLOBAL_VAR
 
 
 // Used in wait_context to silence a warning about m_version_and_traits.
-// Plain (void) cast works too but this matches upstream's style.
 template <typename T>
 void suppress_unused_warning(const T&) {}
 
 
 // Feature flags of stuff we're not supporting.
-// Leaving these undefined is intentional.
+// We intentionally leave these undefined.
 //
 //   TBB_USE_PROFILING_TOOLS  — all no-ops in profiling.h
 //   __TBB_RESUMABLE_TASKS    — coroutine suspend/resume, skip
