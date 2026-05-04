@@ -26,7 +26,7 @@ namespace tbb {
 namespace detail {
 inline namespace d0 {
 
-// Removed >=cpp14 check here
+// VITA-TBB: Removed >=cpp14 check here
 using std::index_sequence;
 using std::make_index_sequence;
 

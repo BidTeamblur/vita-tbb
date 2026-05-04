@@ -73,7 +73,7 @@ TBB_STRING_RESOURCE(FLOW_NODE, "node")
 TBB_STRING_RESOURCE(FLOW_TASKS, "tbb_flow_graph")
 TBB_STRING_RESOURCE(USER_EVENT, "user_event")
 
-// VITA_TBB: removed this part as no profiling or such is implemented (even _config.h isnt at this point)
+// VITA_TBB: removed this part as no profiling or such is implemented
 // #if __TBB_FLOW_TRACE_CODEPTR
 // TBB_STRING_RESOURCE(CODE_ADDRESS, "code_address")
 // #endif
